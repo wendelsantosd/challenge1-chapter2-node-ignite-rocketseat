@@ -5,7 +5,7 @@
     "jest": true
   },
   "extends": [
-    "airbnb-base",
+    "eslint:recommended",
     "plugin:@typescript-eslint/recommended",
     "prettier",
     "plugin:prettier/recommended"
@@ -15,7 +15,7 @@
     "ecmaVersion": 12,
     "sourceType": "module"
   },
-  "plugins": ["@typescript-eslint", "eslint-plugin-import-helpers", "prettier"],
+  "plugins": ["@typescript-eslint","eslint-plugin-import" ,"eslint-plugin-import-helpers", "prettier"],
   "rules": {
     "camelcase": "off",
     "prettier/prettier": "error",
