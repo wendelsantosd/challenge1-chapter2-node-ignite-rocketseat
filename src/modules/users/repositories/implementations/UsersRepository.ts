@@ -50,7 +50,7 @@ class UsersRepository implements IUsersRepository {
     }
 
     turnAdmin(receivedUser: User): User {
-        const userUpdate = { ...receivedUser }
+        const userUpdate = receivedUser
 
         Object.assign(userUpdate, {
             admin: true,
